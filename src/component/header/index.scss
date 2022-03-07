@@ -1,0 +1,70 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.navigation {
+  width: 100%;
+  height: 81vh;
+  background-color: dimgray;
+}
+
+.bg {
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  background-image: url("../../assets/PK-en-20220228-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  background-color: dimgray;
+  box-shadow: inset 0px 0px 250px black;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  display: flex;
+}
+
+.netflix-logo {
+  position: relative;
+  // width: 15%;
+}
+
+.netflix-logo img {
+  justify-content: flex-start;
+  // margin-left: 55px;
+  width: 175px;
+  height: 105px;
+}
+
+.sign-in {
+  position: relative;
+  // width: 100%;
+  height: 85px;
+}
+
+.sign-in button {
+  width: 85px;
+  height: 33px;
+  justify-content: flex-end;
+  margin-top: 26px;
+  margin-right: 72px;
+  cursor: pointer;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  border: none;
+  font-size: 17px;
+}
+
+.nav-body {
+  position: relative;
+  // width: 100%;
+  color: white;
+}
+
+.nav-body {
+  justify-content: center;
+}
+
+.abcd {
+  width: 100%;
+}
